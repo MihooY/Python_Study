@@ -1,6 +1,8 @@
 # 通过占位符%对Print格式化输出  
-占位符% 使用格式：  
-·%[(name)][flags][width].[precision]typecode·  
+在Day2中介绍了，通过占位符实现格式化输出。查找资料后，进行细化说明。  
+
+**占位符% 使用格式：**  
+***%[(name)][flags][width].[precision]typecode***  
 + (name)         可选，用于选择指定的key  
 + flags          可选，可供选择的值有:  
 	- 加号(+)       右对齐；正数前加正好，负数前加负号；  
