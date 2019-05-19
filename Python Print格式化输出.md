@@ -27,3 +27,13 @@
 	- %，当字符串中存在格式化标志时，需要用 %%表示一个百分号  
 
 注：Python中百分号格式化是不存在自动将整数转换成二进制表示的方式
+
+*示例*
+```
+print("i am %s" % "alex")   
+print("i am %s age %d" % ("alex", 18))   
+print("i am %(name)s age %(age)d" % {"name": "alex", "age": 18})   
+print("percent %.2f" % 99.97623)   
+print("i am %(pp).2f" % {"pp": 123.425556, })   
+print("i am %.2f %%" % {"pp": 123.425556, })   
+```
