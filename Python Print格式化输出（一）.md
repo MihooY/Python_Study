@@ -29,7 +29,7 @@
 注：Python中百分号格式化是不存在自动将整数转换成二进制表示的方式
 
 *示例*
-```
+```Python
 print("i am %s" % "alex")   
 print("i am %s age %d" % ("alex", 18))   
 print("i am %(name)s age %(age)d" % {"name": "alex", "age": 18})   
